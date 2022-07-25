@@ -1,31 +1,37 @@
+body{
+    background-color:#333;
+}
+
 .about-body{
     display:flex;
     align-items:center;
     justify-content:center;
     flex-direction: column;
-    height: 788px;
+    height: 100%;
     background-color: rgb(186, 250, 250);
+
 }
 
 .side-background-left{
+  
     background-image: url(../Pictures/Hawaii.jpg);
-    width: 11%;
+    width: 20%;
     height: 950px;
     float: left;
     background-size: cover;
-
-
 }
 
 .side-background-right{
+
     float: right;
     background-image: url(../Pictures/Hawaii.jpg);
-    width: 199px;
+    width: 20%;
     height:950px;
     background-size: cover;
 }
 
 footer{
+  
     display:flex;
     align-items:center;
     justify-content:center;
@@ -40,6 +46,7 @@ footer{
 
 header{
 background-color:#333;
+
 }
 
 .buttons{
